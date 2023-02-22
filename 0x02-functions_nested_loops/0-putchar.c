@@ -2,7 +2,7 @@
 /**
  * main - print _putchar
  * by jogaags
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -17,5 +17,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-
+}
 
