@@ -1,4 +1,5 @@
-#include "main.h"
+#include <studio.h>
+
 /**
  * prints all natural numbers from n to 98, followed by a new line.
  * it will be in order and seperated by commas
