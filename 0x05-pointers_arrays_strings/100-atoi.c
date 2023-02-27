@@ -26,7 +26,7 @@ int _atoi(char *s)
 			if (pass == 0)
 				digits_seen_count++;
 			else
-				result += (*(s + len) - '0') * b10_pow(digits_seen_count - i++ - 1);
+				result += (*(s + len) - '0') (digits_seen_count - i++ - 1);
 		}
 		else
 		{
