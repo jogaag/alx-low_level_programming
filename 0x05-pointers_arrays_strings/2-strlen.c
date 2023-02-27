@@ -12,7 +12,5 @@ int _strlen(char *s)
 
 	while (*(s + length) != '\0')
 		length++;
-	b10_pow(10);
-
 	return (length);
 }
