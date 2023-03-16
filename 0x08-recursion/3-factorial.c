@@ -1,17 +1,25 @@
 #include "main.h"
-
-/*
- * int factorial - factorial of the given number
- * @n: The interger number
- * Return: int
+/**
+ * factorial - factorial of int
+ * @n:int
+ * Return:int
  */
-
-int factorial(int n);
+int factorial(int n)
 {
-	if (n < 0)
-		return (-1);
-	else if (n == 0)
+	int x;
+
+	if (n == 0)
+	{
 		return (1);
+	}
+	else if (n < 0)
+	{
+		return (-1);
+	}
 	else
-		return (n * factorial(n - 1));
+	{
+		x = n * factorial(n - 1);
+	}
+			return (x);
+
 }
