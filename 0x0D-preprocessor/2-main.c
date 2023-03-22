@@ -1,7 +1,7 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
- * main - print the name of the fiel
+ * main - print the name of the file
  *
  * Return: 0
  */
